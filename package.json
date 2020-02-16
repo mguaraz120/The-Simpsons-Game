@@ -2,7 +2,7 @@
   "name": "Clicky-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mguaraz120.github.io/clicky-game/Clicky-app",
+  "homepage": "https://mguaraz120.github.io/Clicky-app",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",

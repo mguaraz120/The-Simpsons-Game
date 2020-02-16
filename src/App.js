@@ -10,8 +10,8 @@ import Message from "./components/Message";
 
 function shuffleFriends(array) {
   for (let i = array.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
+    let shuffle = Math.floor(Math.random() * (i + 1));
+    [array[i], array[shuffle]] = [array[shuffle], array[i]];
   }
   return array;
 };
@@ -54,7 +54,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      rightWrong: "Glaven! Click a card to restart.",
+      rightWrong: "Click a card to restart.",
       clicked: []
     });
     this.handleShuffle();
@@ -69,7 +69,7 @@ class App extends Component {
     return (
       <Wrapper>
         <Nav
-          title="Simpsons Clicky Game"
+          title="Simpsons Memory Game"
           score={this.state.currentScore}
           topScore={this.state.topScore}
         />
