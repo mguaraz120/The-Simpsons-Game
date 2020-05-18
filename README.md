@@ -23,4 +23,4 @@ This is a simple memorization and click game. The object of the game is to click
 - Javascript
 - HTML
 - CSS
-  ![Image description](screenshot.png)
+  ![Image description](public/screenshot.png)
