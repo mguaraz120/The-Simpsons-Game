@@ -1,8 +1,8 @@
 {
-  "name": "Clicky-app",
+  "name": "simpsons",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mguaraz120.github.io/Clicky-app",
+  "homepage": "https://mguaraz120.github.io/simpsons",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
