@@ -2,7 +2,7 @@
   "name": "simpsons",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mguaraz120.github.io/simpsons",
+  "homepage": "https://mguaraz120.github.io/The-Simpsons-Game",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
